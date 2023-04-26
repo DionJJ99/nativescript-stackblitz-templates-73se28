@@ -1,0 +1,29 @@
+@import '@nativescript/theme/css/core.css';
+@import '@nativescript/theme/css/sky.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+Button.-primary {
+  font-size: 18; 
+}
+
+
+Button:highlighted
+ {
+   background-color: blue;
+
+}
+WarpLayout Label{
+  color:green;
+}
+
+WarpLayout > Label {
+  color:white;
+}
+
+Label + Button {
+  color: red;
+}

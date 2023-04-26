@@ -1,0 +1,18 @@
+<Page loaded="onLoaded">
+    <StackLayout Label ="Pet Index Law">
+        <Label text="Pet Name" />
+        <TextField text="{{ petName }}" />
+
+        <Label text="Type" />
+        <ListPicker items="{{ petClass }}" selectedIndex="{{ selectedTypeIndex }}" />
+
+        <Label text="Birthday" />
+        <DatePicker date="{{ birthday }}" />
+
+        <Button text="Save" tap="{{ onSave }}" />
+
+        <TextView text="{{ summary }}" editable="false" />
+    </StackLayout>
+</Page>
+
+   
